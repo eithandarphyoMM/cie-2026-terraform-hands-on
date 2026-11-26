@@ -65,7 +65,7 @@ vpc_endpoints = {
 
 ```
 
-> **README Note:** Always pass `--region ap-southeast-1` (or your instance's region) when `--region` is not set as your default AWS CLI region, and never pass `/` or a trailing slash after `--region`.
+> **Note:** Always pass `--region ap-southeast-1` (or your instance's region) when `--region` is not set as your default AWS CLI region, and never pass `/` or a trailing slash after `--region`.
 > ```bash
 > aws ssm start-session --target i-07aa0a8973dded801 --region ap-southeast-1
 > 
